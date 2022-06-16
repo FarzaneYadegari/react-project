@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'yekanBakh';
+  src: local('yekanBakh'),
+    url(./utils/yekanBakhFont/Yekan\ Bakh\ FaNum\ 01\ Hairline.woff) format('woff')};
