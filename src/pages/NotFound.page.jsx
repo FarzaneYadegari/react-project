@@ -1,8 +1,16 @@
 import React from 'react'
-import UsageDiagram from "../components/ui/usageDiagram"
+
 function NotFound() {
   return (
-    <div className='bg-red-800'>
+    <div className='font-bold text-center text-xl'>
+      <p>
+      Not Found : 404
+
+      </p>
+      <h1>
+      صفحه ای که میخواین رو نتونستیم پیدا کنیم      
+
+      </h1>
     </div>
   )
 }
