@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'yekanBakh';
-  src: local('yekanBakh'),
-    url(./utils/yekanBakhFont/Yekan\ Bakh\ FaNum\ 01\ Hairline.woff) format('woff')};
+  font-family: 'Nahid-FD-WOL';
+  src: local('Nahid-FD-WOL'),
+    url(./utils/nahidFont/Nahid-FD-WOL.ttf) format('truetype');
+  };
+

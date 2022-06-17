@@ -1,14 +1,18 @@
-table, td, th {  
-    border: 1px solid #ddd;
+table {
+    border: 1px solid rgba(235, 235, 235, 1);
+    border-collapse: separate;
+    border-radius: 8px;
     text-align: center;
     direction: rtl;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th, td {
-    padding: 15px;
-  }
+}
+
+thead th,tr,td,tr:first-of-type  th{
+  border-bottom:  1px solid rgba(235, 235, 235, 1);
+  padding: 10px;
+  height: 10px;
+}
+
+tr:last-of-type td {
+    border-bottom: none;
+}
+ 
