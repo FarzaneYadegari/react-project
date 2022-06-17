@@ -1,8 +1,6 @@
 import { Chart } from 'react-charts'
 import React from 'react'
 
-//  type MyDatum = { date: Date, stars: number }
-
 export default function MyChart() {
   const data = [
     {
