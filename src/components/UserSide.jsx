@@ -7,9 +7,9 @@ import UserWelcome from '../components/ui/UserWelcome.card'
 
 function UserSide() {
   return (
-    <div className=" bg-stone-100 flex flex-col gap-4 ">
+    <div className=" bg-stone-100 flex flex-col gap-4 h-full pl-4 pt-4 ">
     <UserWelcome />
-    <div className=" bg-yellow-50 w-full flex flex-col items-center justify-center">
+    <div className="  h-[100vh]  bg-yellow-50 w-full flex flex-col items-center  justify-between">
       <h1 className="text-right p-4 text-lg font-bold">
         شارژ باقی مانده سیمکارت{' '}
       </h1>
@@ -53,9 +53,10 @@ function UserSide() {
           <MdWifiProtectedSetup size={24} color="#FDC816" />
         </div>
       </div>
-    </div>
+   
     <div className="p-8">
       <img src={imageComponent} className="rounded-lg" />
+    </div>
     </div>
   </div>  )
 }
